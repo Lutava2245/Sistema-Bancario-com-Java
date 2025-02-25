@@ -12,6 +12,10 @@ public class Cliente {
         this.cpf = cpf;
     }
 
+    public ArrayList<Conta> getContas() {
+        return contas;
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -20,7 +24,15 @@ public class Cliente {
         return cpf;
     }
 
-    public ArrayList<Conta> getContas() {
-        return contas;
+    public void setContas(ArrayList<Conta> contas) {
+        this.contas = contas;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 }
